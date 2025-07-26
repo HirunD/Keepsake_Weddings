@@ -347,10 +347,21 @@ text-align: center;
 z-index: 99;
 }
 
+
+
+
+
 @media only screen and (max-width: 880px) {
   .animated-text {
     padding: 78px 0 0 1px;
   }
+}
+
+@media only screen and (max-width:650px) {
+   .whiteline{
+   padding-left: 15px !important;
+   padding-right: 15px !important;
+}
 }
 
 .titleOT {
