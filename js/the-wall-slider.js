@@ -419,80 +419,80 @@ $(function() {
 // 18. the Wall
 window.addEvent("domready", function() {
     var imagewall = [
-        ["the-wall/1.png", []],
-        ["the-wall/2.png", [
+        ["the-wall/1.webp", []],
+        ["the-wall/2.webp", [
            
         ]],
-        ["the-wall/3.png", [
+        ["the-wall/3.webp", [
            
         ]],
-        ["the-wall/4.png", [
+        ["the-wall/4.webp", [
         ]],
-        ["the-wall/5.png", [
+        ["the-wall/5.webp", [
         ]],
-        ["the-wall/6.png", [
+        ["the-wall/6.webp", [
         ]],
-        ["the-wall/7.png", [
+        ["the-wall/7.webp", [
         ]],
-        ["the-wall/8.png", [
+        ["the-wall/8.webp", [
         ]],
-        ["the-wall/9.png", [
+        ["the-wall/9.webp", [
         ]],
-        ["the-wall/10.png", [
+        ["the-wall/10.webp", [
         ]],
-        ["the-wall/11.png", [
+        ["the-wall/11.webp", [
         ]],
-        ["the-wall/12.png", [
+        ["the-wall/12.webp", [
         ]],
-        ["the-wall/13.png", [
+        ["the-wall/13.webp", [
         ]],
-        ["the-wall/14.png", [
+        ["the-wall/14.webp", [
         ]],
-        ["the-wall/15.png", [
+        ["the-wall/15.webp", [
         ]],
-        ["the-wall/16.png", [
+        ["the-wall/16.webp", [
         ]],
-        ["the-wall/17.png", [
+        ["the-wall/17.webp", [
         ]],
-        ["the-wall/18.png", [
+        ["the-wall/18.webp", [
         ]],
-        ["the-wall/19.png", [
+        ["the-wall/19.webp", [
         ]],
-        ["the-wall/20.png", [
+        ["the-wall/20.webp", [
         ]],
-        ["the-wall/21.png", [
+        ["the-wall/21.webp", [
         ]],
-        ["the-wall/22.png", [
+        ["the-wall/22.webp", [
         ]],
-        ["the-wall/23.png", [
+        ["the-wall/23.webp", [
         ]],
-        ["the-wall/24.png", [
+        ["the-wall/24.webp", [
         ]],
-        ["the-wall/25.png", [
+        ["the-wall/25.webp", [
         ]],
-        ["the-wall/26.png", [
+        ["the-wall/26.webp", [
         ]],
-        ["the-wall/27.png", [
+        ["the-wall/27.webp", [
         ]],
-        ["the-wall/28.png", [
+        ["the-wall/28.webp", [
         ]],
-        ["the-wall/29.png", [
+        ["the-wall/29.webp", [
         ]],
-        ["the-wall/30.png", [
+        ["the-wall/30.webp", [
         ]],
-        ["the-wall/31.png", [
+        ["the-wall/31.webp", [
         ]],
-        ["the-wall/32.png", [
+        ["the-wall/32.webp", [
         ]],
-        ["the-wall/33.png", [
+        ["the-wall/33.webp", [
         ]],
-        ["the-wall/34.png", [
+        ["the-wall/34.webp", [
         ]],
-        ["the-wall/35.png", [
+        ["the-wall/35.webp", [
         ]],
-        ["the-wall/36.png", [
+        ["the-wall/36.webp", [
         ]],
-        ["the-wall/36.png", [
+        ["the-wall/36.webp", [
         ]]
     ];
     var maxLength = 36;
