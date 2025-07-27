@@ -419,118 +419,80 @@ $(function() {
 // 18. the Wall
 window.addEvent("domready", function() {
     var imagewall = [
-        ["the-wall/1.png", [
-            ["the-wall/1-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
-        ]],
+        ["the-wall/1.png", []],
         ["the-wall/2.png", [
-            ["the-wall/2-2.png", "Item Name<br \/>\r\nBeauty / Fashion"]
+           
         ]],
         ["the-wall/3.png", [
-            ["the-wall/3-2.png", "Item Name<br \/>\r\nLife / Stories"]
+           
         ]],
         ["the-wall/4.png", [
-            ["the-wall/4-2.png", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
         ["the-wall/5.png", [
-            ["the-wall/5-2.png", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
         ["the-wall/6.png", [
-            ["the-wall/6-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
         ["the-wall/7.png", [
-            ["the-wall/7-2.png", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
         ["the-wall/8.png", [
-            ["the-wall/8-2.png", "Item Name<br \/>\r\nLife / Stories"]
         ]],
         ["the-wall/9.png", [
-            ["the-wall/9-2.png", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
         ["the-wall/10.png", [
-            ["the-wall/10-2.png", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
         ["the-wall/11.png", [
-            ["the-wall/11-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
         ["the-wall/12.png", [
-            ["the-wall/12-2.png", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
         ["the-wall/13.png", [
-            ["the-wall/13-2.png", "Item Name<br \/>\r\nLife / Stories"],
-            ["the-wall/13-3.png", "Item Name 2<br \/>\r\nLife / Stories"],
-            ["the-wall/13-4.png", "Item Name 3<br \/>\r\nLife / Stories"]
         ]],
         ["the-wall/14.png", [
-            ["the-wall/14-2.png", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
         ["the-wall/15.png", [
-            ["the-wall/15-2.png", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
         ["the-wall/16.png", [
-            ["the-wall/16-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
         ["the-wall/17.png", [
-            ["the-wall/17-2.png", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
         ["the-wall/18.png", [
-            ["the-wall/18-2.png", "Item Name<br \/>\r\nLife / Stories"]
         ]],
         ["the-wall/19.png", [
-            ["the-wall/19-2.png", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
         ["the-wall/20.png", [
-            ["the-wall/20-2.png", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
         ["the-wall/21.png", [
-            ["the-wall/21-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
         ["the-wall/22.png", [
-            ["the-wall/22-2.png", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
         ["the-wall/23.png", [
-            ["the-wall/23-2.png", "Item Name<br \/>\r\nLife / Stories"]
         ]],
         ["the-wall/24.png", [
-            ["the-wall/24-2.png", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
         ["the-wall/25.png", [
-            ["the-wall/25-2.png", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
         ["the-wall/26.png", [
-            ["the-wall/26-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
         ["the-wall/27.png", [
-            ["the-wall/27-2.png", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
         ["the-wall/28.png", [
-            ["the-wall/28-2.png", "Item Name<br \/>\r\nLife / Stories"]
         ]],
         ["the-wall/29.png", [
-            ["the-wall/29-2.png", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
         ["the-wall/30.png", [
-            ["the-wall/30-2.png", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
         ["the-wall/31.png", [
-            ["the-wall/31-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
         ["the-wall/32.png", [
-            ["the-wall/32-2.png", "Item Name<br \/>\r\nBeauty / Fashion"]
         ]],
         ["the-wall/33.png", [
-            ["the-wall/33-2.png", "Item Name<br \/>\r\nLife / Stories"]
         ]],
         ["the-wall/34.png", [
-            ["the-wall/34-2.png", "Item Name<br \/>\r\nPeople / Portraits"]
         ]],
         ["the-wall/35.png", [
-            ["the-wall/35-2.png", "Item Name<br \/>\r\nEditorials / Magazines"]
         ]],
         ["the-wall/36.png", [
-            ["the-wall/36-2.png", "Item Name<br \/>\r\nCommercial / Stock"]
         ]],
-        ["the-wall/plus-1.png", [
-            ["the-wall/plus-1-2.png", "Item Name<br \/>\r\nBeauty / Fashion"] // an extra image to compensate for the gap
+        ["the-wall/36.png", [
         ]]
     ];
     var maxLength = 36;
