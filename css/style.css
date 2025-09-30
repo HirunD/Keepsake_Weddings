@@ -77,8 +77,13 @@
 
 
 @font-face {
-   font-family: TheNewElegance;
-   src: url(/fonts/The\ New\ Elegance.ttf);
+  font-family: 'TheNewElegance';
+  src: url('/fonts/TheNewElegance.woff2') format('woff2'),
+       url('/fonts/TheNewElegance.woff') format('woff'),
+       url('/fonts/TheNewElegance.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 .bg-img-SINGLE {
@@ -434,7 +439,8 @@ h6 {
 }
 
 .introduction-1 h1 {
-   font-family: "Times New Roman";
+   /* font-family: "Times New Roman"; */
+   font-family: 'TheNewElegance', sans-serif;
    /* font-family: "time"; */
    font-style: normal;
    font-weight: 700;
@@ -445,7 +451,7 @@ h6 {
    color: #fff;
    margin: -3px auto 0 auto;
    width: 100%;
-   line-height: 100%;
+   line-height: 110%;
    text-shadow: 1px 1px 2px #111;
 }
 
@@ -641,6 +647,7 @@ h6 {
 }
 
 .main-navigation-logo .logo {
+   padding-left: 10%;
    display: table-cell;
    vertical-align: middle;
    max-width: 200px;
@@ -1551,7 +1558,7 @@ a.open-hidden-container {
 }
 
 .row-item.n-3 {
-   height: 70%;
+   height: 100%;
 }
 
 @media only screen and (max-width: 640px) {
@@ -3768,13 +3775,30 @@ source {
    transition: all 0.5s linear;
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  /* border: 3px solid green; */
+  padding: 10px;
+  
+
+}
+
+.n-1{
+   display: none;
+}
+
+.center p{
+font-size: 16px;
+   font-family: 'Raleway', sans-serif; !important
+}
 
 /* divider */
 .dividerOT {
    width: auto;
-   height: 10px;
+   height: 5px;
    position: relative;
-   margin: 50px auto;
+   margin: 15px auto;
    text-align: center;
 }
 
@@ -3945,6 +3969,11 @@ h2.section-news-subtitle {
    padding: 0;
 }
 
+.subtext{
+   font-size: 15px;
+   font-family: 'Raleway', sans-serif;
+
+}
 h3 {
    font-family: 'Dosis', sans-serif;
    font-style: normal;
