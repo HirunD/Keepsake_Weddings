@@ -1,0 +1,49 @@
+  <!-- page facts start -->
+    <div class="lower-page-facts" data-background="img/fixed.png" id="page-facts">
+        <!-- curtains start -->
+        <div class="curtains facts"></div><!-- curtains end -->
+        <!-- container start -->
+        <div class="container">
+            <!-- row start -->
+            <div class="row">
+                <!-- facts counter start -->
+                <div class="facts-counter-wrapper">
+                    <div class="col-6 col-sm-4">
+                        <!-- <div class="facts-counter-number">
+                            76
+                        </div> -->
+                        <div class="facts-counter-description">
+                            <i class="fa fa-hourglass-half"></i>
+                            <span class="facts-counter-title">Same Day Delivery</span>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-4">
+                        <!-- <div class="facts-counter-number">
+                            41
+                        </div> -->
+                        <div class="facts-counter-description">
+                            <i class="fa fa-film"></i> <span class="facts-counter-title">Vintage Style BTS</span>
+                        </div>
+                    </div><!-- clearfix start -->
+                    <div class="clearfix visible-xs-block"></div><!-- clearfix end -->
+                    <!-- <div class="col-xs-6 col-sm-3">
+                        <div class="facts-counter-number">
+                            12
+                        </div>
+                        <div class="facts-counter-description">
+                            <i class="fa fa-globe"></i> <span class="facts-counter-title">Countries Reached</span>
+                        </div>
+                    </div> -->
+                    <!-- <div class="col-xs-6 col-sm-3">
+                        <div class="facts-counter-number">
+                            1976
+                        </div>
+                        <div class="facts-counter-description">
+                            <i class="fa fa-camera-retro"></i> <span class="facts-counter-title">Photos Taken</span>
+                        </div>
+                    </div> -->
+                </div><!-- facts counter end -->
+            </div><!-- row end -->
+        </div><!-- container end -->
+    </div><!-- page facts end -->
+    <!-- page featured work start -->
