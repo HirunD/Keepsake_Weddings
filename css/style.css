@@ -2079,7 +2079,8 @@ a.open-hidden-container {
 /* overlay text */
 .overlay-text {
    font-family: "Modernline" !important;
-  font-size: 40px;
+  font-size: 30px;
+  
   font-weight: 600;
   color: #111;
   text-align: center;
